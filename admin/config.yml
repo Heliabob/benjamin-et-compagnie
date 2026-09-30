@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: Heliabob/benjamin-et-compagnie
-  branch: main
+  name: turbo-github
+  site_id: b34a89ab-e4fc-405a-bd9e-9e2f19c6a254
 
 media_folder: "assets/uploads"
 public_folder: "/benjamin-et-compagnie/assets/uploads"
