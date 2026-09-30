@@ -1,0 +1,88 @@
+backend:
+  name: github
+  repo: Heliabob/benjamin-et-compagnie
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/benjamin-et-compagnie/assets/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "pages"
+    label: "Pages du site"
+    files:
+
+      - name: "accueil"
+        label: "Page d'accueil"
+        file: "content/accueil.json"
+        format: "json"
+        fields:
+          - label: "Titre principal"
+            name: "titre"
+            widget: "string"
+
+          - label: "Texte d'introduction"
+            name: "introduction"
+            widget: "text"
+
+          - label: "Photo principale"
+            name: "photo_principale"
+            widget: "image"
+            required: false
+
+          - label: "Titre de la section services"
+            name: "titre_services"
+            widget: "string"
+
+          - label: "Aide aux devoirs"
+            name: "aide_devoirs"
+            widget: "object"
+            fields:
+              - label: "Titre"
+                name: "titre"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+          - label: "Garde d'enfants active"
+            name: "garde_active"
+            widget: "object"
+            fields:
+              - label: "Titre"
+                name: "titre"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+          - label: "Événementiel et loisirs"
+            name: "evenementiel"
+            widget: "object"
+            fields:
+              - label: "Titre"
+                name: "titre"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+          - label: "Présentation de Benjamin"
+            name: "presentation"
+            widget: "object"
+            fields:
+              - label: "Titre"
+                name: "titre"
+                widget: "string"
+              - label: "Présentation"
+                name: "texte"
+                widget: "text"
+              - label: "Photo professionnelle"
+                name: "photo"
+                widget: "image"
+                required: false
+
+          - label: "Zone d'intervention"
+            name: "zone"
+            widget: "string"
