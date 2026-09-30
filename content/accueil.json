@@ -1,0 +1,24 @@
+{
+  "titre": "Des enfants épanouis. Des parents sereins.",
+  "introduction": "Un accompagnement professionnel, dynamique et bienveillant pour les enfants. Garde active, aide aux devoirs et animations à Moirans et aux alentours.",
+  "photo_principale": "",
+  "titre_services": "Des services pensés pour les enfants et leurs familles",
+  "aide_devoirs": {
+    "titre": "Aide aux devoirs",
+    "description": "Un accompagnement ludique pour apprendre autrement, prendre confiance et devenir progressivement plus autonome."
+  },
+  "garde_active": {
+    "titre": "Garde d'enfants active",
+    "description": "Bien plus qu'une simple garde : jeux, activités créatives, animations et temps adaptés au rythme et aux envies de l'enfant."
+  },
+  "evenementiel": {
+    "titre": "Événementiel & loisirs",
+    "description": "Anniversaires, mariages, grands jeux, chasses au trésor et animations originales pour faire vivre aux enfants de vrais moments de découverte."
+  },
+  "presentation": {
+    "titre": "Bonjour, moi c'est Benjamin.",
+    "texte": "Animateur jeunesse professionnel diplômé du BPJEPS Loisirs Tous Publics et du Bac Pro SAPAT, j'accompagne les enfants à travers le jeu, l'autonomie, la découverte et le mouvement.",
+    "photo": ""
+  },
+  "zone": "Moirans & alentours"
+}
